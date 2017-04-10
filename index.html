@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Yunsur - Just Enjoy it</title>
+<meta name="keywords" content="yunsur,search,google,website"/>
+<meta name="description" content="yunsur search just enjoy it"/>
+<meta name="author" content="yunsur"/>
+<meta name="renderer" content="webkit"/>
+<meta http-equiv="Cache-Control" content="no-siteapp"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" href="/assets/icons/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/assets/icons/favicon-16x16.png" sizes="16x16"/>
+<link rel="manifest" href="/assets/icons/manifest.json"/>
+<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#000000"/>
+<link rel="shortcut icon" href="/assets/icons/favicon.ico"/>
+<meta name="msapplication-config" content="/assets/icons/browserconfig.xml"/>
+<meta name="theme-color" content="#ffffff"/>
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/assets/css/custom.css"/>
+</head>
+<body>
+<div class="search">
+	<div class="container" >
+		<h1><img class="logo" src="/assets/icons/logo.png"/></h1>
+		<h4>Just Enjoy it</h4>
+		<div>
+			<span id="websrch" tmp="0" class="btn btn-info btn-sm">Search</span>
+			<span id="quesrch" tmp="1" class="btn btn-default btn-sm">Quest</span>
+			<span id="trasrch" tmp="2" class="btn btn-default btn-sm">Translate</span>
+			<span id="socsrch" tmp="3" class="btn btn-default btn-sm">Social</span>
+		</div>
+		<div class="form-group">
+			<label class="control-label"></label>
+			<input type="search" class="form-control center" id="input" placeholder="Input keywords search"/>
+		</div>
+		<span style="display:none;" id="IDstore"/>0</span>
+		<div>
+			<button type="button" id="srhbt0" class="btn btn-default btn-sm">Baidu</button>
+			<button type="button" id="srhbt1" class="btn btn-default btn-sm">Google</button>
+		</div>
+	</div>
+	<div class="scroll-down">
+		<i class="glyphicon glyphicon-chevron-down"></i>&nbsp;&nbsp;Scroll down to browse the website&nbsp;&nbsp;<i class="glyphicon glyphicon-chevron-down"></i>
+	</div>
+</div>
+<div class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 hidden-sm hidden-xs">
+				<div class="sidebar">
+					<ul class="sidebar-url">
+						<li><p class="sidebar-title">Travel</p></li>
+						<li><a href="http://www.12306.cn/" target="_blank">12306</a></li>
+						<li><a href="http://www.jt306.cn/" target="_blank">JT306</a></li>
+						<li><a href="https://www.alitrip.com/" target="_blank">Alitrip</a></li>
+						<li><a href="http://ditu.amap.com/" target="_blank">Amap</a></li>
+						<li><p class="sidebar-title">Query</p></li>
+						<li><a href="http://www.speedtest.net/" target="_blank">Speedtest</a></li>
+						<li><a href="https://www.ipip.net/" target="_blank">IPIP.NET</a></li>
+						<li><a href="https://www.kuaidi100.com/" target="_blank">Kuaidi100</a></li>
+						<li><a href="http://www.nongli.com/item3/" target="_blank">Calendar</a></li>
+						<li><p class="sidebar-title">Apple</p></li>
+						<li><a href="https://www.icloud.com/" target="_blank">iCloud</a></li>
+						<li><a href="https://appleid.apple.com/cn/" target="_blank">Apple ID</a></li>
+						<li><a href="https://checkcoverage.apple.com/cn/" target="_blank">Check SN</a></li>
+						<li><a href="https://developer.apple.com/cn/" target="_blank">Developer</a></li>
+						<li><p class="sidebar-title">Mail</p></li>
+						<li><a href="https://mail.google.com/" target="_blank">Gmail</a></li>
+						<li><a href="https://www.outlook.com/" target="_blank">Outlook</a></li>
+						<li><a href="https://mail.qq.com/" target="_blank">Foxmail</a></li>
+						<li><a href="https://mail.protonmail.com/login" target="_blank">ProtonMail</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-12 col-xs-12">
+				<p class="links-title">[ Enjoy ]</p>
+				<ul class='links-url'>
+					<li><a href="https://www.taobao.com/" target="_blank">Taobao</a></li>
+					<li><a href="https://www.jd.com/" target="_blank">JD.COM</a></li>
+					<li><a href="http://www.dangdang.com/" target="_blank">DangDang</a></li>
+					<li><a href="http://www.suning.com/" target="_blank">Suning</a></li>
+					<li><a href="http://www.gome.com.cn/" target="_blank">GOME</a></li>
+					<li><a href="https://www.amazon.com/" target="_blank">Amazon</a></li>
+					<li><a href="http://music.163.com/" target="_blank">CloudMusic</a></li>
+					<li><a href="https://www.xiami.com/" target="_blank">Xiami</a></li>
+					<li><a href="http://www.iqiyi.com/" target="_blank">iQIYI</a></li>
+					<li><a href="http://www.youku.com/" target="_blank">Youku</a></li>
+					<li><a href="http://www.bilibili.com/" target="_blank">Bilibili</a></li>
+					<li><a href="http://www.loldytt.com/" target="_blank">LoLdytt</a></li>
+				</ul>
+				<p class="links-title">[ Reader ]</p>
+				<ul class='links-url'>
+					<li><a href="https://www.zhihu.com/" target="_blank">Zhihu</a></li>
+					<li><a href="https://www.qdaily.com/" target="_blank">Qdaily</a></li>
+					<li><a href="http://www.ifanr.com/" target="_blank">ifanr</a></li>
+					<li><a href="http://sspai.com/" target="_blank">sspai</a></li>
+					<li><a href="http://liqi.io/" target="_blank">liqi</a></li>
+					<li><a href="http://www.dgtle.com/" target="_blank">dgtle</a></li>
+					<li><a href="https://weibo.com/" target="_blank">Weibo</a></li>
+					<li><a href="https://tieba.baidu.com/" target="_blank">Tieba</a></li>
+					<li><a href="https://www.huxiu.com/" target="_blank">Huxiu</a></li>
+					<li><a href="https://www.guokr.com/" target="_blank">Guokr</a></li>
+					<li><a href="http://www.solidot.org/" target="_blank">Solidot</a></li>
+					<li><a href="http://www.freebuf.com/" target="_blank">FreeBuf</a></li>
+				</ul>
+				<p class="links-title">[ Forum ]</p>
+				<ul class='links-url'>
+					<li><a href="https://www.chiphell.com/" target="_blank">Chiphell</a></li>
+					<li><a href="http://bbs.feng.com/" target="_blank">Feng</a></li>
+					<li><a href="http://www.right.com.cn/forum/" target="_blank">Right</a></li>
+					<li><a href="http://koolshare.cn/" target="_blank">KoolShare</a></li>
+					<li><a href="http://www.52pojie.cn/" target="_blank">52pojie</a></li>
+					<li><a href="http://bbs.wuyou.net/" target="_blank">Wuyou</a></li>
+					<li><a href="http://www.zdfans.com/" target="_blank">ZD423</a></li>
+					<li><a href="http://www.appcgn.com/" target="_blank">Appcgn</a></li>
+					<li><a href="http://www.repaik.com/" target="_blank">Repaik</a></li>
+					<li><a href="http://beikeit.com/" target="_blank">BeikeIT</a></li>
+					<li><a href="http://www.itellyou.cn/" target="_blank">MSDN</a></li>
+					<li><a href="http://www.itiankong.net/" target="_blank">ITSK</a></li>
+				</ul>
+				<p class="links-title">[ Operate ]</p>
+				<ul class='links-url'>
+					<li><a href="https://www.namesilo.com/" target="_blank">NameSilo</a></li>
+					<li><a href="https://www.cloudxns.net/index.php" target="_blank">CloudXNS</a></li>
+					<li><a href="https://www.qiniu.com/" target="_blank">Qiniu</a></li>
+					<li><a href="https://www.aliyun.com/" target="_blank">Aliyun</a></li>					
+					<li><a href="https://www.vultr.com/" target="_blank">Vultr</a></li>
+					<li><a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a></li>					
+					<li><a href="https://www.daocloud.io/" target="_blank">DaoCloud</a></li>
+					<li><a href="https://www.docker.com/" target="_blank">Docker</a></li>
+					<li><a href="https://www.ubuntu.com/" target="_blank">Ubuntu</a></li>
+					<li><a href="https://www.opensuse.org/" target="_blank">OpenSUSE</a></li>
+					<li><a href="https://www.archlinux.org/" target="_blank">ArchLinux</a></li>
+					<li><a href="https://www.gentoo.org/" target="_blank">Gentoo</a></li>
+				</ul>
+				<p class="links-title">[ Develop ]</p>
+				<ul class='links-url'>
+					<li><a href="https://www.v2ex.com/" target="_blank">V2EX</a></li>
+					<li><a href="https://coding.net/" target="_blank">Coding</a></li>
+					<li><a href="https://github.com/" target="_blank">GitHub</a></li>
+					<li><a href="https://news.ycombinator.com/" target="_blank">Hacker News</a></li>
+					<li><a href="https://segmentfault.com/" target="_blank">SegmentFault</a></li>
+					<li><a href="https://stackoverflow.com/" target="_blank">StackOverflow</a></li>
+					<li><a href="https://www.google.com.hk/" target="_blank">Google</a></li>
+					<li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+					<li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+					<li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+					<li><a href="http://chuangzaoshi.com/" target="_blank">ChuangZaoShi</a></li>
+					<li><a href="http://navisec.it/" target="_blank">NaviSec</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+<p class="text-center">
+	© 2017 Designed by <a href="/">yunsur</a>.
+</p>
+</footer>
+<script src="/assets/js/jquery-3.1.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/query-suggest.js"></script>
+<script src="/assets/js/custom.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-74126405-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
