@@ -1,5 +1,9 @@
 /* customize.css */
 
+.banner {
+    height: 100vh;
+}
+
 .search {
     padding-top: 20%;
 }
