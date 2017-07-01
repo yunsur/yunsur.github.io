@@ -6,21 +6,21 @@ function show(str) {
     openTag(2, str);
 }
 var Params = {
-    "XOffset": -2,
-    "YOffset": -2,
+    "XOffset": -1,
+    "YOffset": -1,
     // "width": $('#input').innerWidth(),
-    "fontColor": "#555",
-    "fontColorHI": "#555",
-    "fontSize": "",
-    "fontFamily": "",
-    "borderColor": "#eee",
-    "bgcolorHI": "#eee",
-    "sugSubmit": true
+    "fontColor": "rgba(0, 0, 0, 0.87)",
+    "fontColorHI": "rgba(0, 0, 0, 0.87)",
+    "fontSize": "14px",
+    "fontFamily": "Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif",
+    "borderColor": "rgba(34, 36, 38, 0.14902)",
+    "bgcolorHI": "rgba(0, 0, 0, 0.05)",
+    "sugSubmit": false
 };
 BaiduSuggestion.bind('input', Params, show);
-$("span[id$='srch']").click(function() {
-    $("span[id$='srch']").attr("class", "btn btn-default btn-sm");
-    $(this).attr("class", "btn btn-info btn-sm active");
+$("a[id$='srch']").click(function() {
+    $("a[id$='srch']").attr("class", "ui basic large label");
+    $(this).attr("class", "ui green large label");
     _usrslt = $(this).attr("tmp");
     $("#srhbt0").html(_indList[_usrslt][0]);
     if (_indList[_usrslt][1] == "") {
@@ -45,7 +45,7 @@ function openTag(_idstr, _srhstr) {
     window.open(_indList[_usrslt][_idstr] + HTMLDeCode(_srhstr), "_blank")
 }
 
-$("button[id^='srhbt']").click(function() {
+$("a[id^='srhbt']").click(function() {
     var _idstr = $(this).attr("id");
     _idstr = parseInt(_idstr.charAt(_idstr.length - 1)) + 2;
     _srhstr = $("#input").val();
