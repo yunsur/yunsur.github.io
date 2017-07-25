@@ -33,31 +33,33 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="stylesheet" href="https://cdn.bootcss.com/semantic-ui/2.2.10/semantic.min.css">
     <link rel="stylesheet" href="assets/css/customize.css">
+    <link rel="stylesheet" href="assets/css/customize-bang.css">
+    <link rel="stylesheet" href="assets/css/customize-masthead.css">
 
 </head>
 
 <body>
     <div class="ui large top fixed borderless hidden menu">
         <div class="ui container">
-            <a class="active item loading-trigger" href="/"><i class="yellow star icon"></i>Start</a>
-            <a class="item loading-trigger" href="/"><i class="line chart icon"></i>Analysis</a>
+            <a class="active item loading-trigger" href="/"><i class="yellow warning icon"></i>Bang</a>
+            <a class="item loading-trigger" href="/help.html"><i class="help icon"></i>Help</a>
             <div class="right menu">
                 <a class="item" href="https://github.com/yunsur/yunsur.github.io" target="_blank"><i class="github icon"></i>GitHub</a>
             </div>
         </div>
     </div>
     <div class="ui vertical inverted sidebar menu">
-        <a class="active item loading-trigger" href="/"><i class="yellow star icon"></i>Start</a>
-        <a class="item loading-trigger" href="/"><i class="line chart icon"></i>Analysis</a>
+        <a class="active item loading-trigger" href="/"><i class="yellow warning icon"></i>Bang</a>
+        <a class="item loading-trigger" href="/help.html"><i class="help icon"></i>Help</a>
         <a class="item" href="https://github.com/yunsur/yunsur.github.io" target="_blank"><i class="github icon"></i>GitHub</a>
     </div>
     <div class="pusher">
-        <div class="ui inverted vertical masthead center aligned segment zoomed banner">
+        <div class="ui inverted vertical masthead center aligned segment zoomed">
             <div class="ui container">
                 <div class="ui large secondary inverted pointing menu" style="border: none;">
                     <a class="toc item"><i class="sidebar icon"></i></a>
-                    <a class="active item loading-trigger" href="/"><i class="yellow star icon"></i>Start</a>
-                    <a class="item loading-trigger" href="/"><i class="line chart icon"></i>Analysis</a>
+                    <a class="active item loading-trigger" href="/"><i class="yellow warning icon"></i>Bang</a>
+                    <a class="item loading-trigger" href="/help.html"><i class="help icon"></i>Help</a>
                     <div class="right menu">
                         <a class="item" href="https://github.com/yunsur/yunsur.github.io" target="_blank"><i class="github icon"></i>GitHub</a>
                     </div>
@@ -66,19 +68,10 @@
             <!-- Begin Search -->
             <div class="ui text container">
                 <div class="search">
-                    <h1><img class="logo" src="/images/logo-white.png" /></h1>
-                    <div class="ui labels shortcuts">
-                        <a class="ui green large label" id="websrch" tmp="0">Search</a>
-                        <a class="ui basic large label" id="quesrch" tmp="1">Quest</a>
-                        <a class="ui basic large label" id="trasrch" tmp="2">Translate</a>
-                        <a class="ui basic large label" id="socsrch" tmp="3">Social</a>
-                    </div>
-                    <div class="ui inverted fluid input">
+                    <h1><img class="logo" src="/images/logo.png" /></h1>
+                    <div class="ui inverted fluid right icon left action input">
+                        <div id="bang" class="ui button">!</div>
                         <input id="input" type="text" placeholder="Input keywords search">
-                    </div>
-                    <div class="ui labels shortcuts">
-                        <a class="ui basic label" id="srhbt0"><i class="paw blue icon"></i>Baidu</a>
-                        <a class="ui basic label" id="srhbt1"><i class="google red icon"></i>Google</a>
                     </div>
                 </div>
             </div>
@@ -111,9 +104,10 @@
                     <div class="ui labels">
                         <a class="ui basic label" href="https://www.zhihu.com/" target="_blank"><i class="icon blue iconfont icon-zhihu"></i>Zhihu</a>
                         <a class="ui basic label" href="https://weibo.com/" target="_blank"><i class="weibo red icon"></i>Weibo</a>
-                        <a class="ui basic label" href="https://sspai.com/" target="_blank"><i class="icon red iconfont icon-sspai"></i>sspai</a>
-                        <a class="ui basic label" href="http://liqi.io/" target="_blank"><i class="icon grey iconfont icon-liqi"></i>liqi</a>
+                        <a class="ui basic label" href="https://tieba.baidu.com/" target="_blank"><i class="paw blue icon"></i>Tieba</a>
                         <a class="ui basic label" href="https://www.ifanr.com/" target="_blank"><i class="icon black iconfont icon-ifanr"></i>ifanr</a>
+                        <a class="ui basic label" href="https://sspai.com/" target="_blank"><i class="icon red iconfont icon-sspai"></i>sspai</a>
+                        <a class="ui basic label" href="http://liqi.io/" target="_blank"><i class="icon grey iconfont icon-liqi"></i>liqi</a>                        
                         <a class="ui basic label" href="http://www.dgtle.com/" target="_blank"><i class="icon grey iconfont icon-dgtle"></i>DGtle</a>
                         <a class="ui basic label" href="http://www.freebuf.com/" target="_blank"><i class="icon green iconfont icon-freebuf"></i>FreeBuf</a>
                         <a class="ui basic label" href="https://news.ycombinator.com/" target="_blank"><i class="hacker news orange icon"></i>Hacker News</a>
@@ -205,7 +199,7 @@
                         <div class="ui inverted link list">
                             <a class="item" href="http://semantic-ui.com/" target="_blank">Semantic UI</a>
                             <a class="item" href="http://jquery.com/" target="_blank">jQuery</a>
-                            <p class="item">Hosted by <a href="https://pages.github.com/" style="font-weight: bold">Github Pages</a></p>
+                            <p class="item">Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
                         </div>
                     </div>
                 </div>
@@ -219,6 +213,7 @@
     <script src="https://cdn.bootcss.com/semantic-ui/2.2.10/semantic.min.js"></script>
     <script src="assets/js/query-suggest.js"></script>
     <script src="assets/js/customize.js"></script>
+    <script src="assets/js/customize-bang.js"></script>
 </body>
 
 </html>
