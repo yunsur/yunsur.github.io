@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 // loading dimmer
 $('.loading-trigger').click(function() {
-    $('#loading-dimmer').dimmer('show');
+    $('#page-loading-dimmer').dimmer('show');
 });
 
 // progress bar

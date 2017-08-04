@@ -1,0 +1,92 @@
+- cmd: ac
+  url: www.acfun.cn
+
+- cmd: am
+  url: www.amazon.com
+
+- cmd: aqy
+  url: www.iqiyi.com
+
+- cmd: b
+  url: www.baidu.com
+
+- cmd: bl
+  url: www.bilibili.com
+
+- cmd: bq
+  url: www.ubiaoqing.com
+
+- cmd: bt
+  url: fanyi.baidu.com
+
+- cmd: d
+  url: duckduckgo.com
+
+- cmd: db
+  url: www.douban.com
+
+- cmd: dd
+  url: www.dangdang.com
+
+- cmd: g
+  url: www.google.com
+
+- cmd: gh
+  url: www.github.com
+
+- cmd: gt
+  url: translate.google.cn
+
+- cmd: ins
+  url: www.instagram.com 
+
+- cmd: jd
+  url: www.jd.com
+
+- cmd: kd
+  url: www.kuaidi100.com 
+
+- cmd: map
+  url: http://ditu.amap.com
+
+- cmd: r
+  url: www.reddit.com
+
+- cmd: sf
+  url: segmentfault.com
+
+- cmd: so
+  url: stackoverflow.com
+
+- cmd: tb
+  url: www.taobao.com
+
+- cmd: tm
+  url: www.tmall.com
+
+- cmd: tw
+  url: www.twitter.com
+
+- cmd: v2ex
+  url: www.v2ex.com
+
+- cmd: wb
+  url: www.weibo.com
+
+- cmd: wx
+  url: weixin.sogou.com
+
+- cmd: wiki
+  url: www.wikipedia.org
+
+- cmd: yd
+  url: fanyi.youdao.com
+
+- cmd: yk
+  url: www.youku.com
+
+- cmd: ytb
+  url: www.youtube.com
+
+- cmd: zh
+  url: www.zhihu.com

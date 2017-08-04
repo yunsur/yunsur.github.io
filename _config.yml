@@ -1,0 +1,31 @@
+name: Bang · Just Enjoy it
+author: yunsur
+author_url: https://yunsur.com
+description: A Navigation Website for yunsur
+keywords: Bang, Search, Just Enjoy it, Website, Navigation
+url: https://yunsur.com
+
+logo: /images/logo.png
+logo_dark: /images/logo-dark.png
+logo_white: /images/logo-white.png
+
+repository: yunsur/yunsur.github.io
+repository_url: https://github.com/yunsur/yunsur.github.io
+
+timezone: Asia/Shanghai
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-tidy
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor

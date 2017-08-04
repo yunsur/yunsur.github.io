@@ -1,0 +1,96 @@
+--- 
+layout: default 
+title: Help 
+help: true 
+---
+
+<div class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+        <div class="row">
+            <h3 class="ui header">Command syntax logic</h3>
+            <table class="ui padded blue table">
+                <thead>
+                    <tr>
+                        <th class="three wide">prefix</th>
+                        <th class="six wide">description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>!</td>
+                        <td>the search command</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th>root</th>
+                        <th>description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>b</td>
+                        <td>query www.baidu.com</td>
+                    </tr>
+                    <tr>
+                        <td>g</td>
+                        <td>query www.google.com</td>
+                    </tr>
+                    <tr>
+                        <td>......</td>
+                        <td>......</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="ui padded blue table">
+                <h3 class="ui header">Examples</h3>
+                <tbody>
+                    <tr>
+                        <td class="three wide">!b football </td>
+                        <td class="six wide">search "football" in baidu</td>
+                    </tr>
+                    <tr>
+                        <td>!g football </td>
+                        <td>search "football" in google</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <h3 class="ui header">Command table</h3>
+            <table class="ui padded blue table">
+                <thead>
+                    <tr>
+                        <th class="three wide">Command</th>
+                        <th class="six wide">Query</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in site.data.cmd %}
+                    <tr>
+                        <td>!{{ item.cmd }}</td>
+                        <td>{{ item.url }}</td>
+                    </tr>
+                    {% endfor %}
+                    <tr>
+                        <td>......</td>
+                        <td>......</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+        <div class="row">
+            <div class="center aligned column">
+                <div class="ui large buttons">
+                    <a class="ui positive left labeled icon button" href="https://saythanks.io/to/yunsur" target="_blank"><i class="smile icon"></i>Say Thanks</a>
+                    <div class="or" data-text="or"></div>
+                    <a class="ui negative right labeled icon button" href="https://github.com/yunsur/yunsur.github.io/issues/new" target="_blank"><i class="bug icon"></i>Report Bug</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
