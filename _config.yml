@@ -14,7 +14,7 @@ repository_url: https://github.com/yunsur/yunsur.github.io
 
 timezone: Asia/Shanghai
 
-gems:
+plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-tidy
