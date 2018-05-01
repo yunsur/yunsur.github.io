@@ -17,7 +17,7 @@
       icon: amazon yellow icon
       url: https://www.amazon.com/
 
-    - name: Appe
+    - name: Apple
       style: basic    
       icon: apple grey icon
       url: https://www.apple.com/cn/
@@ -27,14 +27,19 @@
       icon: icon red iconfont icon-cloudmusic
       url: https://music.163.com/
 
+    - name: QQ Music
+      style: basic
+      icon: qq yellow icon
+      url: https://y.qq.com/
+
+    - name: Xiami Music
+      style: basic
+      icon: icon orange iconfont icon-xiami
+      url: https://www.xiami.com/
+
     - name: iQIYI
       style: basic
       icon: icon green iconfont icon-aiqiyi
-      url: https://www.xiami.com/
-
-    - name: Xiami
-      style: basic
-      icon: icon orange iconfont icon-xiami
       url: https://www.iqiyi.com/
 
     - name: Youku
@@ -94,6 +99,11 @@
       icon: icon green iconfont icon-freebuf     
       url: http://www.freebuf.com/
 
+    - name: WeChat
+      style: basic
+      icon: wechat green icon 
+      url: https://mp.weixin.qq.com/
+
     - name: Hacker News   
       style: basic
       icon: hacker news orange icon
@@ -101,11 +111,31 @@
 
     - name: Medium
       style: basic
-      icon: medium green icon
+      icon: medium black icon
       url: https://medium.com/
 
-  - category: Forum
+  - category: Social
     links:
+    - name: Twitter
+      style: basic
+      icon: twitter blue icon
+      url: https://twitter.com/
+
+    - name: Telegram
+      style: basic
+      icon: telegram blue icon
+      url: https://telegram.org/
+
+    - name: Slack
+      style: basic
+      icon: slack teal icon
+      url: https://slack.com/
+
+    - name: Trello
+      style: basic
+      icon: trello blue icon
+      url: https://trello.com/
+    
     - name: Chiphell
       style: basic
       icon: icon red iconfont icon-chiphell    
@@ -124,39 +154,34 @@
     - name: 52pojie
       style: basic
       icon: icon red iconfont icon-52pojie
-      url: http://www.52pojie.cn/
+      url: https://www.52pojie.cn/
 
-    - name: Repaik
+    - name: Appinn
       style: basic
-      icon: icon red iconfont icon-repaik    
-      url: https://www.repaik.com/
+      icon: theme red icon  
+      url: https://www.appinn.com/
 
     - name: BeikeIT
       style: basic
       icon: icon blue iconfont icon-beike   
       url: http://beikeit.com/
 
-    - name: Steam
+    - name: MSDN
       style: basic
-      icon: steam square icon   
-      url: http://store.steampowered.com/
+      icon: windows blue icon
+      url: https://msdn.itellyou.cn/
 
-    - name: Telegram
+    - name: Repaik
       style: basic
-      icon: telegram blue icon
-      url: https://telegram.org/
-
-    - name: Evernote
-      style: basic
-      icon: icon green iconfont icon-evernote 
-      url: https://evernote.com/
+      icon: icon red iconfont icon-repaik    
+      url: https://www.repaik.com/
 
   - category: Tools
     links:
     - name: '12306'
       style: basic
       icon: train red icon
-      url: http://www.12306.cn/
+      url: https://kyfw.12306.cn/otn/index/init
 
     - name: JT306
       style: basic
@@ -176,22 +201,22 @@
     - name: Speedtest
       style: basic
       icon: icon teal iconfont icon-speedtest
-      url: http://www.speedtest.net/
-
-    - name: MSDN
+      url: https://www.speedtest.net/
+   
+    - name: Baidu Disk
       style: basic
-      icon: windows blue icon
-      url: http://www.itellyou.cn/
+      icon: paw blue icon
+      url: https://pan.baidu.com/
 
     - name: Dropbox
       style: basic
       icon: dropbox blue icon
       url: https://www.dropbox.com/
 
-    - name: iCloud
+    - name: QQ Mail
       style: basic
-      icon: cloud blue icon
-      url: https://www.icloud.com/
+      icon: mail orange icon
+      url: https://mail.qq.com/
 
     - name: Gmail
       style: basic
@@ -245,23 +270,23 @@
       icon: icon orange iconfont icon-ubuntu
       url: https://www.ubuntu.com/
 
-    - name: ArchLinux
+    - name: Arch Linux
       style: basic
       icon: icon blue iconfont icon-archlinux
       url: https://www.archlinux.org/
 
   - category: Develop
-    links:
+    links:  
     - name: V2EX
       style: basic
       icon: icon iconfont icon-v2ex
       url: https://www.v2ex.com/
 
-    - name: Twitter
+    - name: Reddit
       style: basic
-      icon: twitter blue icon
-      url: https://twitter.com/
-
+      icon: reddit orange icon
+      url: https://www.reddit.com/
+    
     - name: Coding
       style: basic
       icon: icon black iconfont icon-coding
@@ -271,8 +296,8 @@
       style: basic
       icon: github black icon
       url: https://github.com/
-
-    - name: Dribble
+ 
+    - name: Dribbble
       style: basic
       icon: dribble pink icon
       url: https://dribbble.com/
@@ -281,18 +306,23 @@
       style: basic
       icon: pinterest red icon
       url: https://www.pinterest.com/
-
-    - name: Product Hunt
+       
+    - name: ProductHunt
       style: basic
       icon: product hunt orange icon
-      url: hhttps://www.producthunt.com/
+      url: https://www.producthunt.com/
 
     - name: SegmentFault
       style: basic
       icon: icon green iconfont icon-sf
       url: https://segmentfault.com/
 
-    - name: StackOverflow
+    - name: Stack Overflow
       style: basic
       icon: stack overflow orange icon
       url: https://stackoverflow.com/
+
+    - name: DevDocs
+      style: basic
+      icon: sticky note outline black icon
+      url: https://devdocs.io/
