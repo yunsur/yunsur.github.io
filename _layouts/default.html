@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-    <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
-    <meta name="updated_at" content="{{ site.time | date_to_xmlschema }}" />    
+    <meta name="started_at" content="{{ site.started_at }}" />
+    <meta name="updated_at" content="{{ site.time | date: "%Y-%m-%d" }}" />
     {% seo %}
-    <link rel="apple-touch-icon" type="image/png" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" type="image/png" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/common.css' | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/masthead.css' | relative_url }}">
@@ -37,8 +37,6 @@
     {% if page.home %}<script src="{{ '/assets/js/suggest-query.js' | relative_url }}"></script>{% endif %}
     {% if page.home %}<script src="{{ '/assets/js/hitokoto.js' | relative_url }}"></script>{% endif %}
     <script src="{{ '/assets/js/common.js' | relative_url }}"></script>
-    {% if page.home %}<script src="{{ '/assets/js/bang.js' | relative_url }}"></script>{% endif %}
-    
-
+    {% if page.home %}<script src="{{ '/assets/js/home.js' | relative_url }}"></script>{% endif %}
 </body>
 </html>

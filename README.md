@@ -1,13 +1,47 @@
-# Bang · Just Enjoy it
-    
-[![Build Status](https://travis-ci.org/yunsur/yunsur.github.io.svg?branch=master)](https://travis-ci.org/yunsur/yunsur.github.io)
-[![Website](https://img.shields.io/website-up-down-green-red/https/yunsur.com.svg)](https://yunsur.com/)
-[![License](https://img.shields.io/github/license/yunsur/yunsur.github.io.svg)](/LICENSE)
-[![Say Thanks](https://img.shields.io/badge/Say-Thanks!-1EAEDB.svg)](https://saythanks.io/to/yunsur)
+[![Build Status](https://travis-ci.org/yunsur/yunsur.github.io.svg)][travis-ci]
+[![Website](https://img.shields.io/website-up-down-green-red/https/yunsur.com.svg)][website]
+[![License](https://img.shields.io/github/license/yunsur/yunsur.github.io.svg)][license]
+[![Say Thanks](https://img.shields.io/badge/Say-Thanks!-1EAEDB.svg)][saythanks]
 
+# Bang · Just Enjoy it
 A Navigation Website for yunsur.
 
+## Design Philosophy
+This project is a [Jekyll][jekyll]-powered website, which is built based on [Semantic UI][semantic] web framework, and deployed using [GitHub Pages][github-pages].
+
+The whole project is designed and built with high flexibility of configuration and customization.
+You can either configure it by modifying the `_config.yml` file or customize it by replacing the content of the `*.yml` files in the `_data` folder with your own data.
+
+## A Tiny Tutorial
+There is **no easy way for beginners** without essential background knowledge.
+To be efficient, the best way to understand this project is to start with the Jekyll's [docs][jekyll-doc] and Semantic UI's [docs][semantic-doc].
+
+Before you start, you should have some basic understanding of the following:
+
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- YAML format
+- UNIX/Linux Shell Script
+
 ###### Powered by
-- [Semantic UI](http://semantic-ui.com/)
-- [jQuery](https://jquery.com/)
-- [GitHub Pages](https://pages.github.com/)
+- [Semantic UI][semantic]
+- [jQuery][jquery]
+- [Hitokoto][hitokoto]
+- [Shields.io][shields]
+- [GitHub Pages][github-pages]
+
+[travis-ci]: https://travis-ci.org/BYR-Navi/BYR-Navi "Travis CI"
+[website]: https://byr-navi.com/ "Website"
+[license]: https://github.com/yunsur/yunsur.github.io/blob/master/LICENSE "License"
+[saythanks]: https://saythanks.io/to/yunsur "Say Thanks"
+
+[jekyll]: https://jekyllrb.com/ "Jekyll"
+[jekyll-doc]: https://jekyllrb.com/docs/home/ "Jekyll Docs"
+[semantic]: https://semantic-ui.com/ "Semantic UI"
+[semantic-doc]: https://semantic-ui.com/introduction/getting-started.html "Semantic UI Docs"
+[github-pages]: https://pages.github.com/ "GitHub Pages"
+[jquery]: https://jquery.com/ "jQuery"
+[shields]: https://shields.io/ "Shields.io"
+[hitokoto]: https://hitokoto.cn/api "Hitokoto"
