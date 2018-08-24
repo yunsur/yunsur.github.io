@@ -1,0 +1,78 @@
+- section: public
+  categories:
+  - category: Microsoft System ( 微软系统 )
+    links:
+    - name: Windows_10_x64
+      sha1: 092C9CFE8A69A849036C71D7CD2602822B68F747
+      size: 4.73 GB
+      date: 2018-07-10
+      url: ed2k://|file|cn_windows_10_business_edition_version_1803_updated_jul_2018_x64_dvd_12613133.iso|5075204096|9BE9662C6A1D206D4123556D743BC554|/
+
+    - name: Windows_10_x86
+      sha1: 735D58855E5E93630B0493B62099B9397DD294D2
+      size: 3.64 GB
+      date: 2018-07-10
+      url: ed2k://|file|cn_windows_10_business_edition_version_1803_updated_jul_2018_x86_dvd_12613458.iso|3910152192|C9BB71A02BE21F0895751ADD5054BCB8|/
+
+    - name: Windows_8.1_x64
+      sha1: BD1B866707D07C6A460E6AD6E1124782F16ABC60
+      size: 3.85 GB
+      date: 2014-04-08
+      url: ed2k://|file|cn_windows_8.1_professional_vl_with_update_x64_dvd_4050293.iso|4136626176|4D2363F9E06BFD50A78B1E6464702959|/
+
+    - name: Windows_8.1_x86
+      sha1: ABBF814846C425C88910B011BC9D3D3C77932056
+      size: 2.87 GB
+      date: 2014-04-08
+      url: ed2k://|file|cn_windows_8.1_professional_vl_with_update_x86_dvd_4048630.iso|3086659584|41CAAB5DAC5643F6E0048576D609C19A|/
+
+    - name: Windows_7_x64
+      sha1: 647B26479A3A46C078F5B1364A89003A31F4AADA
+      size: 3.04 GB
+      date: 2011-05-12
+      url: ed2k://|file|cn_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677816.iso|3266004992|5A52F4CCEFA71797D58389B397038B2F|/
+
+    - name: Windows_7_x86
+      sha1: 27AE9FBAF9EE076F50F153353E42A3BE74A61FAB
+      size: 2.33 GB
+      date: 2011-05-12
+      url: ed2k://|file|cn_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677939.iso|2502909952|935E5B4B754527BE3C238FA6ABDD9B86|/
+
+  - category: Office Application ( 办公应用 )
+    links:    
+    - name: Office_2016_x64
+      sha1: AEB58DE1BC97685F8BC6BFB0A614A8EF6903E318
+      size: 1.50 GB
+      date: 2015-10-02
+      url: ed2k://|file|SW_DVD5_Office_Professional_Plus_2016_64Bit_ChnSimp_MLF_X20-42426.ISO|1123452928|31087A00FF67D4F5B4CBF4AA07C3433B|/
+
+    - name: Office_2016_x86
+      sha1: 0218F50774AAB63AF7755B0986CDB9972B853E44
+      size: 940 MB
+      date: 2015-10-02
+      url: ed2k://|file|SW_DVD5_Office_Professional_Plus_2016_W32_ChnSimp_MLF_X20-41351.ISO|986441728|2DE74581C10096137481873B3AD57D43|/
+
+    - name: Office_2013_x64
+      sha1: D20C6F6A24034E2C2B2B21E4403695CDD5A1903D
+      size: 914 MB
+      date: 2012-11-01
+      url: ed2k://|file|SW_DVD5_Office_Professional_Plus_2013_64Bit_ChnSimp_MLF_X18-55285.ISO|958879744|678EF5DD83F825E97FB710996E0BA597|/
+
+    - name: Office_2013_x86
+      sha1: 1B15B7E8753D51ECCA66E23F6D07377C58C52376
+      size: 810 MB
+      date: 2012-11-01
+      url: ed2k://|file|SW_DVD5_Office_Professional_Plus_2013_W32_ChnSimp_MLF_X18-55126.ISO|850122752|72F01530B3A9C320E166A1A412F1D869|/
+
+    - name: Office_2010_x64
+      sha1: 9D97B220739161CFF3147E169B702A056A6C7F51
+      size: 1.50 GB
+      date: 2011-09-23
+      url: ed2k://|file|SW_DVD5_Office_Professional_Plus_2010w_SP1_64Bit_ChnSimp_CORE_MLF_X17-76742.iso|1612515328|032320121E0EE36D8F0C32EC89CA0AB9|/
+
+    - name: Office_2010_x86
+      sha1: 581ED02AC171DB18E80B277214AB6B952038F599
+      size: 1.32 GB
+      date: 2011-09-23
+      url: ed2k://|file|SW_DVD5_Office_Professional_Plus_2010w_SP1_W32_ChnSimp_CORE_MLF_X17-76734.iso|1412091904|79B75EE3F629A1BD925E6C0AEFDECA10|/
+

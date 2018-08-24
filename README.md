@@ -32,8 +32,8 @@ Before you start, you should have some basic understanding of the following:
 - [Shields.io][shields]
 - [GitHub Pages][github-pages]
 
-[travis-ci]: https://travis-ci.org/BYR-Navi/BYR-Navi "Travis CI"
-[website]: https://byr-navi.com/ "Website"
+[travis-ci]: https://travis-ci.org/yunsur/yunsur.github.io "Travis CI"
+[website]: https://yunsur.com/ "Website"
 [license]: https://github.com/yunsur/yunsur.github.io/blob/master/LICENSE "License"
 [saythanks]: https://saythanks.io/to/yunsur "Say Thanks"
 

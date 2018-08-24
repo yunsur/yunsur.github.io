@@ -1,5 +1,10 @@
 // fix menu and sidebar
 
+// rating
+$('.ui.rating')
+  .rating('disable')
+;
+
 $(document).ready(function() {
     // fix menu when passed
     $('.masthead').visibility({

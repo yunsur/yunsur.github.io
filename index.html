@@ -5,7 +5,7 @@ home: true
 
 {% for section in site.data.links %}
     <div class="ui vertical stripe links segment">
-        {% include page_loading_progress.html %}
+        {% include loading_progress.html %}
         <div class="ui stackable three column internally grid celled container">
             <div class="center aligned row">
                 {% for item in section.categories %}

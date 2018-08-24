@@ -29,7 +29,7 @@
 
     - name: QQ Music
       style: basic
-      icon: qq yellow icon
+      icon: icon green iconfont icon-qqmusic
       url: https://y.qq.com/
 
     - name: Xiami Music
@@ -101,7 +101,7 @@
 
     - name: WeChat
       style: basic
-      icon: wechat green icon 
+      icon: weixin green icon 
       url: https://mp.weixin.qq.com/
 
     - name: Hacker News   
@@ -183,10 +183,10 @@
       icon: train red icon
       url: https://kyfw.12306.cn/otn/index/init
 
-    - name: JT306
+    - name: XTY
       style: basic
-      icon: bus icon
-      url: http://www.jt306.cn/
+      icon: bus green icon
+      url: http://www.xintuyun.cn/
 
     - name: Alitrip
       style: basic
@@ -215,18 +215,18 @@
 
     - name: QQ Mail
       style: basic
-      icon: mail orange icon
+      icon: mail blue  icon
       url: https://mail.qq.com/
+
+    - name: Aliyun
+      style: basic
+      icon: mail orange icon
+      url: https://mail.aliyun.com/
 
     - name: Gmail
       style: basic
       icon: mail red icon
       url: https://mail.google.com/
-
-    - name: Outlook
-      style: basic
-      icon: mail blue icon
-      url: https://www.outlook.com/
 
   - category: Operate 
     links:
@@ -235,10 +235,10 @@
       icon: icon blue iconfont icon-namesilo
       url: https://www.namesilo.com/
 
-    - name: CloudXNS
+    - name: DNSPod
       style: basic
-      icon: icon green iconfont icon-cloudxns
-      url: https://www.cloudxns.net/index.php
+      icon: icon blue iconfont icon-dnspod
+      url: https://www.dnspod.cn/
 
     - name: Qiniu    
       style: basic
@@ -265,10 +265,10 @@
       icon: icon blue iconfont icon-docker
       url: https://www.docker.com/
 
-    - name: Ubuntu
+    - name: Linux Mint
       style: basic
-      icon: icon orange iconfont icon-ubuntu
-      url: https://www.ubuntu.com/
+      icon: icon green iconfont icon-linuxmint
+      url: https://www.linuxmint.com/
 
     - name: Arch Linux
       style: basic
@@ -286,20 +286,20 @@
       style: basic
       icon: reddit orange icon
       url: https://www.reddit.com/
-    
-    - name: Coding
-      style: basic
-      icon: icon black iconfont icon-coding
-      url: https://coding.net/
 
     - name: GitHub
       style: basic
       icon: github black icon
       url: https://github.com/
+
+    - name: Bitbucket
+      style: basic
+      icon: bitbucket blue icon
+      url: https:///bitbucket.org/
  
     - name: Dribbble
       style: basic
-      icon: dribble pink icon
+      icon: dribbble pink icon
       url: https://dribbble.com/
 
     - name: Pinterest

@@ -1,0 +1,71 @@
+--- 
+layout: default 
+title: Status 
+status: true 
+---
+
+<div class="ui vertical stripe segment">
+    {% include loading_progress.html %}
+    <div class="ui middle aligned stackable grid container">
+        <div class="row">
+            <h3 class="ui header">Network</h3>
+            <table class="ui blue table">
+                <thead>
+                  <tr>
+                    <th class="four wide">Local</th>
+                    <th class="twelve wide"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>LAN</td>
+                    <td id="lan"></td>
+                  </tr>
+                  <tr>
+                    <td>WAN</td>
+                    <td id="wan"></td>
+                  </tr>
+                  </tbody>
+                  <thead>
+                    <tr>
+                      <th class="four wide">Proxy</th>
+                      <th class="twelve wide"></th>
+                    </tr>
+                  </thead>
+                  <tbody>                  
+                  <tr>
+                    <td>IPv4</td>
+                    <td id="ipv4"></td>
+                  </tr>
+                  <tr>
+                    <td>IPv6</td>
+                    <td id="ipv6"></td>
+                  </tr>                  
+                </tbody>
+            </table>
+            <h3>Public DNS</h3>              
+            <table class="ui blue table">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Master</th>
+                    <th>Slave</th>
+                    <th>Rating</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    {% for item in site.data.dns %}
+                    <tr>
+                        <td><a href="{{ item.url }}" target="_blank" >{{ item.name }}</a></td>
+                        <td class="ui copy" data-clipboard-text="{{ item.master }}" data-content="Copied" data-position="left center" >{{ item.master }}</td>            
+                        <td class="ui copy" data-clipboard-text="{{ item.slave }}" data-content="Copied" data-position="left center" >{{ item.slave }}</td>
+                        <td><div class="ui star rating" data-rating="{{ item.rating }}" data-max-rating="5"></div></td>     
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>   
+        </div>
+    </div>
+</div>
+{% include footer_thanks.html %}
+

@@ -16,9 +16,6 @@
 - cmd: bm
   url: map.baidu.com
 
-- cmd: bq
-  url: www.ubiaoqing.com
-
 - cmd: bt
   url: fanyi.baidu.com
 
