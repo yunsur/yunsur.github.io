@@ -10,7 +10,7 @@
     {% seo %}
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
     <link rel="apple-touch-icon" type="image/png" href="{{ '/apple-touch-icon.png' | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/semantic.min.css' | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/common.css' | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/masthead.css' | relative_url }}">
     {% if page.home %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/home.css' | relative_url }}">{% endif %}
@@ -36,8 +36,8 @@
         {% include footer_page.html %}
     </div>
     {% include loading_dimmer.html %}
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.min.js"></script>
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/semantic.min.js' | relative_url }}"></script>
     {% if page.status %}<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>{% endif %}  
     {% if page.home %}<script src="{{ '/assets/js/suggest-query.js' | relative_url }}"></script>{% endif %}
     {% if page.home %}<script src="{{ '/assets/js/hitokoto.js' | relative_url }}"></script>{% endif %}

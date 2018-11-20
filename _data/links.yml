@@ -181,7 +181,7 @@
     - name: '12306'
       style: basic
       icon: train red icon
-      url: https://kyfw.12306.cn/otn/index/init
+      url: https://www.12306.cn/
 
     - name: XTY
       style: basic
