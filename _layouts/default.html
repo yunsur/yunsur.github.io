@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/masthead.css' | relative_url }}">
     {% if page.home %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/home.css' | relative_url }}">{% endif %}
     {% if page.status %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/other.css' | relative_url }}">{% endif %}
+    {% if page.password %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/other.css' | relative_url }}">{% endif %}
     {% if page.win %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/other.css' | relative_url }}">{% endif %}
     {% if page.help %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/other.css' | relative_url }}">{% endif %} 
     {% if page.error %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/other.css' | relative_url }}">{% endif %}
@@ -28,6 +29,7 @@
             {% include menu_page.html %}
             {% if page.home %}{% include home_search.html %}{% endif %}
             {% if page.status %}{% include header_status.html %}{% endif %}
+            {% if page.password %}{% include header_password.html %}{% endif %}
             {% if page.win %}{% include header_win.html %}{% endif %}
             {% if page.help %}{% include header_help.html %}{% endif %}           
             {% if page.error %}{% include header_error.html %}{% endif %}
@@ -39,6 +41,8 @@
     <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/semantic.min.js' | relative_url }}"></script>
     {% if page.status %}<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>{% endif %}  
+    {% if page.password %}<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>{% endif %} 
+    {% if page.password %}<script src="{{ '/assets/js/password.js' | relative_url }}"></script>{% endif %}
     {% if page.home %}<script src="{{ '/assets/js/suggest-query.js' | relative_url }}"></script>{% endif %}
     {% if page.home %}<script src="{{ '/assets/js/hitokoto.js' | relative_url }}"></script>{% endif %}
     {% if page.status %}<script src="{{ '/assets/js/status.js' | relative_url }}"></script>{% endif %}
