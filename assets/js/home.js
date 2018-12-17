@@ -10,7 +10,7 @@ var Params = {
     "fontFamily": "Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif",
     "borderColor": "rgba(34, 36, 38, 0.14902)",
     "bgcolorHI": "rgba(0, 0, 0, 0.05)",
-    "sugSubmit": false
+    "sugSubmit": true
 };
 BaiduSuggestion.bind('input', Params);
 
