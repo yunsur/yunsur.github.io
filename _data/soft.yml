@@ -1,129 +1,127 @@
 - section: public
   categories:
-  - category: Public Software ( 公共软件 )
-    links:
-    - name: QQ
-      url: https://im.qq.com/pcqq/
-      desc: 即时聊天工具
-      rating: 3
+    - category: Public Software ( 公共软件 )
+      links:
+        - name: QQ
+          url: https://im.qq.com/pcqq/
+          desc: 即时聊天工具
+          rating: 3
 
-    - name: TIM
-      url: https://tim.qq.com/download.html
-      desc: 即时聊天工具      
-      rating: 3
+        - name: TIM
+          url: https://tim.qq.com/download.html
+          desc: 即时聊天工具
+          rating: 3
 
-    - name: 微信
-      url: https://pc.weixin.qq.com/
-      desc: 即时聊天工具  
-      rating: 4    
+        - name: 微信
+          url: https://pc.weixin.qq.com/
+          desc: 即时聊天工具
+          rating: 4
 
-    - name: Chrome
-      url: https://www.google.cn/chrome/
-      desc: 谷歌浏览器
-      rating: 4
+        - name: Chrome
+          url: https://www.google.cn/chrome/
+          desc: 谷歌浏览器
+          rating: 4
 
-    - name: Firefox
-      url: https://www.firefox.com.cn/
-      desc: 火狐浏览器    
-      rating: 3
+        - name: Firefox
+          url: https://www.firefox.com.cn/
+          desc: 火狐浏览器
+          rating: 3
 
-    - name: 网易云音乐
-      url: https://music.163.com/#/download/
-      desc: 专注于发现与分享的音乐
-      rating: 4
+        - name: 网易云音乐
+          url: https://music.163.com/#/download/
+          desc: 专注于发现与分享的音乐
+          rating: 4
 
-    - name: QQ 音乐
-      url: https://y.qq.com/download/ 
-      desc: 完整曲库、海量音乐在线试听
-      rating: 4
+        - name: QQ 音乐
+          url: https://y.qq.com/download/
+          desc: 完整曲库、海量音乐在线试听
+          rating: 4
 
-    - name: PotPlayer
-      url: https://www.repaik.com/thread-90448-1-1.html  
-      desc: 内置解码器的视频播放器
-      rating: 3
+        - name: PotPlayer
+          url: https://www.repaik.com/thread-90448-1-1.html
+          desc: 内置解码器的视频播放器
+          rating: 3
 
-    - name: 手心输入法
-      url: http://www.xinshuru.com/
-      desc: 无广告、不骚扰、简洁经典的输入法
-      rating: 3
+        - name: 手心输入法
+          url: http://www.xinshuru.com/
+          desc: 无广告、不骚扰、简洁经典的输入法
+          rating: 3
 
-    - name: 百度网盘
-      url: https://pan.baidu.com/download/
-      desc : 网络文件的备份、同步和分享服务
-      rating: 4
+        - name: 百度网盘
+          url: https://pan.baidu.com/download/
+          desc: 网络文件的备份、同步和分享服务
+          rating: 4
 
-    - name: 迅雷
-      url: http://dl.xunlei.com/
-      desc: 基于多资源超线程的下载工具
-      rating: 3
+        - name: 迅雷
+          url: http://dl.xunlei.com/
+          desc: 基于多资源超线程的下载工具
+          rating: 3
 
-  - category: Efficiency Software ( 效率软件 )
-    links:
-    - name: 7-Zip
-      url: http://www.zdfans.com/html/3700.html
-      desc: 高压缩比的压缩管理软件
-      rating: 4
+    - category: Efficiency Software ( 效率软件 )
+      links:
+        - name: 7-Zip
+          url: http://www.zdfans.com/html/3700.html
+          desc: 高压缩比的压缩管理软件
+          rating: 4
 
-    - name: Aria 2
-      url: https://github.com/alanzhangzm/Photon   
-      desc: 轻量级的多协议下载工具
-      rating: 3
-      
-    - name: Wox
-      url: http://www.wox.one
-      desc: 强大高效的全功能启动器
-      rating: 4
+        - name: Aria 2
+          url: https://github.com/alanzhangzm/Photon
+          desc: 轻量级的多协议下载工具
+          rating: 3
 
-    - name: KeePass
-      url: https://keepass.info/
-      desc: 开源且免费的密码管理器
-      rating: 5
+        - name: Wox
+          url: http://www.wox.one
+          desc: 强大高效的全功能启动器
+          rating: 4
 
-    - name: Etcher
-      url: https://etcher.io/ 
-      desc: 跨平台的镜像写入工具
-      rating: 3
+        - name: KeePass
+          url: https://keepass.info/
+          desc: 开源且免费的密码管理器
+          rating: 5
 
-    - name: Snipaste
-      url: https://www.snipaste.com/
-      desc : 免安装定制化的截图工具
-      rating: 4
+        - name: Etcher
+          url: https://etcher.io/
+          desc: 跨平台的镜像写入工具
+          rating: 3
 
-    - name: VSCode
-      url: https://code.visualstudio.com/ 
-      desc: 跨平台的轻量级代码编辑器
-      rating: 4
+        - name: Snipaste
+          url: https://www.snipaste.com/
+          desc: 免安装定制化的截图工具
+          rating: 4
 
-    - name: Git
-      url: https://git-scm.com/ 
-      desc: 分布式版本控制系统
-      rating: 4
-      
-    - name: SourceTree
-      url: https://www.sourcetreeapp.com/
-      desc : 简洁而且强大的 Git GUI   
-      rating: 4    
+        - name: VSCode
+          url: https://code.visualstudio.com/
+          desc: 跨平台的轻量级代码编辑器
+          rating: 4
 
-    - name: Dropbox
-      url: https://www.dropbox.com/download?full=1
-      desc: 智能增量同步文件共享
-      rating: 4
+        - name: Git
+          url: https://git-scm.com/
+          desc: 分布式版本控制系统
+          rating: 4
 
-  - category: System Maintain ( 系统维护 )
-    links: 
-    - name: 贝壳 PE
-      url: http://beikeit.com/post-874.html
-      desc : 基于 Windows PE 系统的贝壳维护装机盘
-      rating: 3  
+        - name: SourceTree
+          url: https://www.sourcetreeapp.com/
+          desc: 简洁而且强大的 Git GUI
+          rating: 4
 
-    - name: 微软运行库
-      url: https://www.repaik.com/thread-53948-1-1.html
-      desc: 采用 Visual Studio 编写的公用 DLL 运行库
-      rating: 4
+        - name: Dropbox
+          url: https://www.dropbox.com/download?full=1
+          desc: 智能增量同步文件共享
+          rating: 4
 
-    - name: DirectX 9.0
-      url: https://www.repaik.com/thread-55660-1-1.html
-      desc: 增强 Windows 3D 图形和声效的优化工具
-      rating: 4
+    - category: System Maintain ( 系统维护 )
+      links:
+        - name: 贝壳 PE
+          url: http://beikeit.com/post-874.html
+          desc: 基于 Windows PE 系统的贝壳维护装机盘
+          rating: 3
 
-    
+        - name: 微软运行库
+          url: https://www.repaik.com/thread-53948-1-1.html
+          desc: 采用 Visual Studio 编写的公用 DLL 运行库
+          rating: 4
+
+        - name: DirectX 9.0
+          url: https://www.repaik.com/thread-55660-1-1.html
+          desc: 增强 Windows 3D 图形和声效的优化工具
+          rating: 4

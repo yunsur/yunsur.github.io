@@ -41,13 +41,13 @@
   url: translate.google.cn
 
 - cmd: ins
-  url: www.instagram.com 
+  url: www.instagram.com
 
 - cmd: jd
   url: www.jd.com
 
 - cmd: kd
-  url: www.kuaidi100.com 
+  url: www.kuaidi100.com
 
 - cmd: map
   url: ditu.amap.com

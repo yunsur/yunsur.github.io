@@ -3,7 +3,6 @@
   master: 114.114.114.114
   slave: 114.114.115.115
   rating: 3
-  
 
 - name: AliDNS
   url: https://www.alidns.com/
@@ -26,7 +25,7 @@
 - name: Google
   url: https://developers.google.com/speed/public-dns/
   master: 8.8.8.8
-  slave: 	8.8.4.4
+  slave: 8.8.4.4
   rating: 4
 
 - name: Quad9
@@ -34,7 +33,3 @@
   master: 9.9.9.9
   slave: 149.112.112.112
   rating: 3
-
-
-  
-    
