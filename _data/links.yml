@@ -87,7 +87,7 @@
         - name: liqi
           style: basic
           icon: icon grey iconfont icon-liqi
-          url: http://liqi.io/
+          url: https://liqi.io/
 
         - name: DGtle
           style: basic
@@ -97,7 +97,7 @@
         - name: FreeBuf
           style: basic
           icon: icon green iconfont icon-freebuf
-          url: http://www.freebuf.com/
+          url: https://www.freebuf.com/
 
         - name: WeChat
           style: basic
@@ -149,7 +149,7 @@
         - name: Right
           style: basic
           icon: icon iconfont icon-router
-          url: http://www.right.com.cn/forum/
+          url: https://www.right.com.cn/forum/
 
         - name: 52pojie
           style: basic
