@@ -1,0 +1,24 @@
+- name: "site:"
+  tooltip: "site:domain"
+  color: black
+  icon: globe green inverted
+
+- name: "inurl:"
+  tooltip: "inurl:keyword"
+  color: black
+  icon: compass yellow inverted
+
+- name: "intitle:"
+  tooltip: "intitle:keyword"
+  color: black
+  icon: tag red inverted
+
+- name: "inanchor:"
+  tooltip: "inanchor:keyword"
+  color: black
+  icon: user teal nverted
+
+- name: "filetype:"
+  tooltip: "filetype:extension"
+  color: black
+  icon: file blue inverted

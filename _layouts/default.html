@@ -46,12 +46,11 @@
     {% include footer_page.html %}
   </div>
   {% include loading_dimmer.html %}
-  <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/semantic.min.js' | relative_url }}"></script>
   {% if page.status %}<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>{% endif %}
   {% if page.password %}<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>{% endif %}
   {% if page.password %}<script src="{{ '/assets/js/password.js' | relative_url }}"></script>{% endif %}
-  {% if page.home %}<script src="{{ '/assets/js/suggest-query.js' | relative_url }}"></script>{% endif %}
   {% if page.home %}<script src="{{ '/assets/js/hitokoto.js' | relative_url }}"></script>{% endif %}
   {% if page.status %}<script src="{{ '/assets/js/status.js' | relative_url }}"></script>{% endif %}
   {% if page.home %}<script src="{{ '/assets/js/home.js' | relative_url }}"></script>{% endif %}

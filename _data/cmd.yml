@@ -1,35 +1,14 @@
-- cmd: a
-  url: www.amazon.com
-
-- cmd: ac
-  url: www.acfun.cn
-
-- cmd: aqy
-  url: www.iqiyi.com
-
 - cmd: b
   url: www.baidu.com
 
-- cmd: bl
-  url: www.bilibili.com
-
-- cmd: bm
-  url: map.baidu.com
+- cmd: g
+  url: www.google.com
 
 - cmd: bt
   url: fanyi.baidu.com
 
-- cmd: d
-  url: duckduckgo.com
-
-- cmd: db
-  url: www.douban.com
-
-- cmd: dd
-  url: www.dangdang.com
-
-- cmd: g
-  url: www.google.com
+- cmd: gt
+  url: translate.google.com
 
 - cmd: gh
   url: www.github.com
@@ -37,68 +16,59 @@
 - cmd: gm
   url: www.google.com.hk/maps/
 
-- cmd: gt
-  url: translate.google.cn
-
-- cmd: ins
-  url: www.instagram.com
-
-- cmd: jd
-  url: www.jd.com
-
-- cmd: kd
-  url: www.kuaidi100.com
-
-- cmd: map
-  url: ditu.amap.com
-
-- cmd: pan
-  url: www.panc.cc
-
-- cmd: r
-  url: www.reddit.com
-
 - cmd: sf
   url: segmentfault.com
 
 - cmd: so
   url: stackoverflow.com
 
-- cmd: ss
-  url: sspai.com
-
 - cmd: tb
   url: www.taobao.com
 
-- cmd: tm
+- cmd: jd
+  url: www.jd.com
+
+- cmd: map
+  url: ditu.amap.com
+
+- cmd: bilibili
+  url: www.bilibili.com
+
+- cmd: iqiyi
+  url: www.iqiyi.com
+
+- cmd: reddit
+  url: www.reddit.com
+
+- cmd: sspai
+  url: sspai.com
+
+- cmd: taobao
+  url: www.taobao.com
+
+- cmd: tmall
   url: www.tmall.com
 
-- cmd: tw
+- cmd: twitter
   url: www.twitter.com
 
 - cmd: v2ex
   url: www.v2ex.com
 
-- cmd: wb
+- cmd: weibo
   url: www.weibo.com
 
-- cmd: wx
+- cmd: weixin
   url: weixin.sogou.com
 
 - cmd: wiki
   url: www.wikipedia.org
 
-- cmd: yd
-  url: fanyi.youdao.com
-
-- cmd: yk
+- cmd: youku
   url: www.youku.com
 
-- cmd: ytb
+- cmd: youtube
   url: www.youtube.com
-
-- cmd: zm
-  url: www.zimuzu.tv
 
 - cmd: zh
   url: www.zhihu.com

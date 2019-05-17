@@ -1,18 +1,42 @@
 // Baidu suggest
 $("#input").focus();
-var Params = {
-  "XOffset": -1,
-  "YOffset": -1,
-  // "width": $('#input').innerWidth(),
-  "fontColor": "rgba(0, 0, 0, 0.87)",
-  "fontColorHI": "rgba(0, 0, 0, 0.87)",
-  "fontSize": "14px",
-  "fontFamily": "Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif",
-  "borderColor": "rgba(34, 36, 38, 0.14902)",
-  "bgcolorHI": "rgba(0, 0, 0, 0.05)",
-  "sugSubmit": true
-};
-BaiduSuggestion.bind('input', Params);
+$('.ui.search').search({
+  type: 'category',
+  minCharacters: 1,
+	apiSettings: {
+    url: 'https://www.baidu.com/sugrec?prod=pc&wd={query}',
+    jsonp:'cb',
+    dataType:'jsonp',
+    async:true,
+    onResponse: function(Response) {
+      var
+      response = {
+        results: {}
+      };
+      if (!Response || !Response.g) {
+        return;
+      }
+      $.each(Response.g, function(index, item) {
+        var
+          type = item.type || 'Unknown',
+          maxResults = 5;
+        if (index >= maxResults) {
+          return false;
+        }
+        if (response.results[type] === undefined) {
+          response.results[type] = {
+            name: type  ,
+            results: []
+          };
+        }
+        response.results[type].results.push({
+          title: item.q,
+        });
+      });
+      return response;
+    }
+  }
+});
 
 // Add !
 $('#bang').click(function () {
@@ -20,17 +44,12 @@ $('#bang').click(function () {
   $("#input").focus();
 })
 
-// Append 
-$(".advanced a").click(function () {
-  h = $(this).html();
+// Advanced 
+$('.advanced a').click(function () {
+  h = $(this).attr('name');
   $(".search input").val($(".search input").val() + h); // val
   $("#div").append(h);
 });
-
-$('.advanced a')
-  .popup({
-    inline: true
-  });
 
 // Config
 var search_tag = '!';
@@ -60,41 +79,31 @@ function open_queryURL(text) {
 function get_search_engine(ss) {
   var ret = undefined;
   var arr = {
-    'a': 'https://www.amazon.com/s/?keywords=%s',
-    'ac': 'http://www.acfun.cn/search/#query=%s',
-    'aqy': 'https://so.iqiyi.com/so/q_%s',
     'b': 'https://www.baidu.com/s?wd=%s',
-    'bl': 'https://www.bilibili.com/search?keyword=%s',
-    'bm': 'https://api.map.baidu.com/geocoder?address=%s&output=html',
-    'bt': 'https://fanyi.baidu.com/translate#auto/zh/%s',
-    'd': 'https://duckduckgo.com/?q=%s',
-    'db': 'https://www.douban.com/search?q=%s',
-    'dd': 'http://search.dangdang.com/?key=%s&enc=utf-8',
     'g': 'https://www.google.com/search?q=%s',
+    'bt': 'https://fanyi.baidu.com/translate#auto/zh/%s',
+    'gt': 'https://translate.google.com/#auto/zh-CN/%s',
     'gh': 'https://github.com/search?utf8=✓&q=%s',
-    'gm': 'https://www.google.com.hk/maps/search/%s/',
-    'gt': 'https://translate.google.cn/#auto/zh-CN/%s',
-    'ins': 'https://www.instagram.com/explore/tags/%s',
-    'jd': 'https://search.jd.com/Search?keyword=%s&enc=utf-8',
-    'kd': 'https://www.kuaidi100.com/courier/?searchText=%s',
-    'map': 'https://ditu.amap.com/search?query=%s',
-    'pan': 'https://www.panc.cc/s/%s/',
-    'r': 'https://www.reddit.com/search?q=%s',
+    'gm': 'https://www.google.com/maps/search/%s/',
     'sf': 'https://segmentfault.com/search?q=%s',
     'so': 'https://stackoverflow.com/search?q=%s',
-    'ss': 'https://sspai.com/search/article?q=%s',
     'tb': 'https://s.taobao.com/search?q=%s',
-    'tm': 'https://list.tmall.com/search_product.htm?q=%s',
-    'tw': 'https://twitter.com/search?q=%s',
+    'jd': 'https://search.jd.com/Search?keyword=%s&enc=utf-8',
+    'map': 'https://ditu.amap.com/search?query=%s', 
+    'bilibili': 'https://www.bilibili.com/search?keyword=%s',
+    'iqiyi': 'https://so.iqiyi.com/so/q_%s',
+    'reddit': 'https://www.reddit.com/search?q=%s',
+    'sspai': 'https://sspai.com/search/article?q=%s',
+    'taobao': 'https://s.taobao.com/search?q=%s',
+    'tmall': 'https://list.tmall.com/search_product.htm?q=%s',
+    'twitter': 'https://twitter.com/search?q=%s',
     'v2ex': 'https://www.google.com/search?q=site:v2ex.com/t%20%s',
-    'wb': 'https://s.weibo.com/weibo/%s',
-    'wx': 'http://weixin.sogou.com/weixin?type=2&query=%s',
+    'weibo': 'https://s.weibo.com/weibo/%s',
+    'weixin': 'http://weixin.sogou.com/weixin?type=2&query=%s',
     'wiki': 'https://en.wikipedia.org/wiki/%s',
-    'yd': 'http://fanyi.youdao.com/translate?i=%s',
-    'yk': 'https://www.soku.com/search_video/q_%s',
-    'ytb': 'https://www.youtube.com/results?search_query=%s',
-    'zm': 'http://www.zimuzu.tv/search/index?keyword=%s ',
-    'zh': 'https://www.zhihu.com/search?q=%s'
+    'youku': 'https://so.youku.com/search_video/q_%s',
+    'youtube': 'https://www.youtube.com/results?search_query=%s',
+    'zhihu': 'https://www.zhihu.com/search?q=%s'
   };
   var engine = ss.substr(1);
   ret = arr[engine];

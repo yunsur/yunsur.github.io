@@ -1,9 +1,9 @@
 repository: yunsur/yunsur.github.io
 repository_url: https://github.com/yunsur/yunsur.github.io
 
-name: Bang · Fast and Geek
-alias: Bang
-
+title: Bang · Fast and Geek
+alias_en: Bang · Fast and Geek
+alias_cn: Bang · Fast and Geek
 description: A Navigation Website for Yunsur
 keywords: Bang, Search, Fast, Geek, Website, Navigation
 url: https://yunsur.com
