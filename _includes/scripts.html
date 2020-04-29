@@ -1,0 +1,7 @@
+{% for script in site.data.scripts %}
+    <script src="{{ script.src }}"></script>
+{% endfor %}
+<script src="{{ '/assets/js/search.js?v=' | relative_url }}{{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+<script src="{{ '/assets/js/he-plugin-simple.js?v=' | relative_url }}{{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+<script src="//at.alicdn.com/t/font_1778785_yyhcu1dg0oj.js" async></script>
+<script src=//widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1" async></script>

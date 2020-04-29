@@ -9,7 +9,7 @@ A Navigation Website for yunsur.
 
 ## Design Philosophy
 
-This project is a [Jekyll][jekyll]-powered website, which is built based on [Semantic UI][semantic] web framework, and deployed using [GitHub Pages][github-pages].
+This project is a [Jekyll][jekyll]-powered website, and deployed using [GitHub Pages][github-pages].
 
 The whole project is designed and built with high flexibility of configuration and customization.
 You can either configure it by modifying the `_config.yml` file or customize it by replacing the content of the `*.yml` files in the `_data` folder with your own data.
@@ -30,7 +30,6 @@ Before you start, you should have some basic understanding of the following:
 
 ###### Powered by
 
-- [Semantic UI][semantic]
 - [jQuery][jquery]
 - [Hitokoto][hitokoto]
 - [Shields.io][shields]
@@ -42,8 +41,6 @@ Before you start, you should have some basic understanding of the following:
 [saythanks]: https://saythanks.io/to/yunsur "Say Thanks"
 [jekyll]: https://jekyllrb.com/ "Jekyll"
 [jekyll-doc]: https://jekyllrb.com/docs/home/ "Jekyll Docs"
-[semantic]: https://semantic-ui.com/ "Semantic UI"
-[semantic-doc]: https://semantic-ui.com/introduction/getting-started.html "Semantic UI Docs"
 [github-pages]: https://pages.github.com/ "GitHub Pages"
 [jquery]: https://jquery.com/ "jQuery"
 [shields]: https://shields.io/ "Shields.io"

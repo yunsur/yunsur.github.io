@@ -1,0 +1,26 @@
+<div id="menu">
+    <i></i>
+</div>
+<div class="list closed">
+    <ul>
+        {% for section in site.data.links %}
+            {% for item in section.categories %}
+                <li class="title">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#{{ item.icon }}"></use>
+                    </svg> {{ item.category }}
+                </li>
+                {% for link in item.links %}
+                    <li>
+                        <a rel="nofollow" href="{{ link.url }}" target="_blank">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#{{ link.icon }}"></use>
+                            </svg>
+                            {{ link.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    </ul>
+</div>

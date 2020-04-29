@@ -1,11 +1,8 @@
-repository: yunsur/yunsur.github.io
-repository_url: https://github.com/yunsur/yunsur.github.io
-
-title: Bang · Fast and Geek
-alias_en: Bang · Fast and Geek
-alias_cn: Bang · Fast and Geek
-description: A Navigation Website for Yunsur
-keywords: Bang, Search, Fast, Geek, Website, Navigation
+title: 壹页搜索
+alias_en: Ys
+alias_cn: 壹页搜索
+description: 简洁的搜索与导航
+keywords: 壹页, 搜索, 快速, 简洁, 导航
 url: https://yunsur.com
 started_at: "2014-12-29"
 
@@ -13,19 +10,19 @@ author: yunsur
 author_url: https://yunsur.com
 contact: me[at]yunsur[dot]com
 
-image: /images/logo.png
-logo: /images/logo.png
-logo_dark: /images/logo-dark.png
-logo_white: /images/logo-white.png
-
-analytics:
-  google:
-    id: UA-74126405-1
-
 timezone: Asia/Shanghai
 lang: zh_CN
+charset: UTF-8
 
 safe: false
+
+analytics: 'UA-74126405-1'
+
+compress_html:
+  clippings:      all
+  comments:       ["<!--", "-->"]
+  endings:        all
+  startings:      [html, head, body]
 
 plugins:
   - jekyll-seo-tag

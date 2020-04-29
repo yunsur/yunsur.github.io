@@ -1,23 +1,17 @@
 ---
 layout: default
-home: true
+search: true
 ---
-
-{% for section in site.data.links %}
-<div class="ui vertical stripe links segment">
-  {% include loading_progress.html %}
-  <div class="ui stackable three column internally grid celled container">
-    <div class="center aligned row">
-      {% for item in section.categories %}
-      <div class="links column">
-        <div class="ui top attached large label">[ {{ item.category }} ]</div>
-        <div class="ui labels">
-          {% for link in item.links %}<a class="ui {{ link.style }} label" href="{{ link.url }}" target="_blank">{% if
-            link.icon %}<i class="{{ link.icon }} icon"></i>{% endif %}{{ link.name }}</a>{% endfor %}
-        </div>
+    
+<div id="content">
+  <div class="con">
+      <div class="logo"></div>
+      <div id="sou" class="sou">
+        <form action="" method="post" target="_self" onsubmit="return false">
+          <div id="bang" class="lg"></div>
+          <input id="input" class="wd" type="text" placeholder="输入关键字搜索" x-webkit-speech lang="zh-CN" style="outline:0" autocomplete="off"/>
+          <button><svg class="icon" style=" width: 21px; height: 21px; opacity: 0.5;" aria-hidden="true"><use xlink:href="#icon-search"></use></svg></button>
+        </form>
       </div>
-      {% endfor %}
-    </div>
   </div>
 </div>
-{% endfor %}

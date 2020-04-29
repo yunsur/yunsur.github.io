@@ -1,328 +1,483 @@
 - section: public
   categories:
-    - category: Enjoy
-      links:
-        - name: Taobao
+    - category: 邮箱
+      icon: icon-mail
+      links: 
+        - name: Gmail
           style: basic
-          icon: icon orange iconfont icon-taobao
+          icon: icon-gmail
+          url: https://mail.google.com/
+
+        - name: Outlook
+          style: basic
+          icon: icon-outlook
+          url: https://outlook.live.com/mail/
+
+        - name: Zoho
+          style: basic
+          icon: icon-zoho
+          url: https://accounts.zoho.com/
+          
+        - name: QQ邮箱
+          style: basic
+          icon: icon-qqmail
+          url: https://mail.qq.com/
+        
+        - name: 网易邮箱
+          style: basic
+          icon: icon-163
+          url: https://mail.163.com/
+
+        - name: 阿里邮箱
+          style: basic
+          icon: icon-alimail
+          url: https://mail.aliyun.com/
+
+    - category: 常用、购物
+      icon: icon-fire
+      links:
+        - name: 淘宝
+          style: basic
+          icon: icon-taobao
           url: https://www.taobao.com/
 
-        - name: JD
+        - name: 京东
           style: basic
-          icon: icon red iconfont icon-jd
+          icon: icon-jd
           url: https://www.jd.com/
 
-        - name: Amazon
+        - name: 苏宁
           style: basic
-          icon: amazon yellow icon
+          icon: icon-suning
+          url: https://www.suning.com/
+
+        - name: 国美
+          style: basic
+          icon: icon-gome
+          url: https://www.gome.com.cn/
+          
+        - name: 亚马逊
+          style: basic
+          icon: icon-amazon
           url: https://www.amazon.com/
 
         - name: Apple
           style: basic
-          icon: apple grey icon
-          url: https://www.apple.com/cn/
+          icon: icon-apple
+          url: https://www.apple.com.cn/
 
-        - name: Cloud Music
+    - category: 视频、媒体
+      icon: icon-media
+      links:
+        - name: 网易云音乐
           style: basic
-          icon: icon red iconfont icon-cloudmusic
+          icon: icon-cloud-music
           url: https://music.163.com/
 
-        - name: QQ Music
+        - name: QQ音乐
           style: basic
-          icon: icon green iconfont icon-qqmusic
+          icon: icon-qq-music
           url: https://y.qq.com/
 
-        - name: Xiami Music
+        - name: 虾米音乐
           style: basic
-          icon: icon orange iconfont icon-xiami
+          icon: icon-xiami-music
           url: https://www.xiami.com/
 
-        - name: iQIYI
+        - name: 腾讯视频
           style: basic
-          icon: icon green iconfont icon-aiqiyi
-          url: https://www.iqiyi.com/
+          icon: icon-qqvideo
+          url: https://v.qq.com/
 
-        - name: Youku
+        - name: 爱奇艺
           style: basic
-          icon: icon blue iconfont icon-youku
+          icon: icon-iqiyi
+          url: https://www.iqiyi.com/
+          
+        - name: 优酷
+          style: basic
+          icon: icon-youku
           url: https://www.youku.com/
 
-        - name: Bilibili
+        - name: 哔哩哔哩
           style: basic
-          icon: icon pink iconfont icon-bilibili
+          icon: icon-bilibili
           url: https://www.bilibili.com/
+          
+        - name: 人人影视
+          style: basic
+          icon: icon-yyets
+          url: http://www.yyets.com/
 
         - name: YouTube
           style: basic
-          icon: youtube play red icon
+          icon: icon-youtube
           url: https://www.youtube.com/
 
-    - category: Reader
+    - category: 阅读、浏览
+      icon: icon-reader
       links:
-        - name: Zhihu
+        - name: 知乎
           style: basic
-          icon: icon blue iconfont icon-zhihu
+          icon: icon-zhihu
           url: https://www.zhihu.com/
 
-        - name: Weibo
+        - name: 微博
           style: basic
-          icon: weibo red icon
+          icon: icon-weibo
           url: https://weibo.com/
 
-        - name: Tieba
+        - name: 贴吧
           style: basic
-          icon: paw blue icon
+          icon: icon-tieba
           url: https://tieba.baidu.com/
 
-        - name: ifanr
+        - name: 少数派
           style: basic
-          icon: icon black iconfont icon-ifanr
-          url: https://www.ifanr.com/
-
-        - name: sspai
-          style: basic
-          icon: icon red iconfont icon-sspai
+          icon: icon-sspai
           url: https://sspai.com/
 
-        - name: liqi
+        - name: 爱范儿
           style: basic
-          icon: icon grey iconfont icon-liqi
+          icon: icon-ifanr
+          url: https://www.ifanr.com/
+
+        - name: 利器
+          style: basic
+          icon: icon-liqi
           url: https://liqi.io/
 
-        - name: DGtle
+        - name: 汽车之家
           style: basic
-          icon: icon grey iconfont icon-dgtle
+          icon: icon-autohome
+          url: https://www.autohome.com.cn/    
+
+        - name: 数字尾巴
+          style: basic
+          icon: icon-dgtle
           url: http://www.dgtle.com/
+
+        - name: 微信
+          style: basic
+          icon: icon-wechat
+          url: https://mp.weixin.qq.com/
 
         - name: FreeBuf
           style: basic
-          icon: icon green iconfont icon-freebuf
+          icon: icon-freebuf
           url: https://www.freebuf.com/
-
-        - name: WeChat
-          style: basic
-          icon: weixin green icon
-          url: https://mp.weixin.qq.com/
 
         - name: Hacker News
           style: basic
-          icon: hacker news orange icon
+          icon: icon-hacker-news 
           url: https://news.ycombinator.com/
 
         - name: Medium
           style: basic
-          icon: medium black icon
+          icon: icon-medium
           url: https://medium.com/
 
-    - category: Social
-      links:
-        - name: Twitter
-          style: basic
-          icon: twitter blue icon
-          url: https://twitter.com/
-
-        - name: Telegram
-          style: basic
-          icon: telegram blue icon
-          url: https://telegram.org/
-
-        - name: Slack
-          style: basic
-          icon: slack teal icon
-          url: https://slack.com/
-
-        - name: Trello
-          style: basic
-          icon: trello blue icon
-          url: https://trello.com/
-
-        - name: Chiphell
-          style: basic
-          icon: icon red iconfont icon-chiphell
-          url: https://www.chiphell.com/
-
-        - name: Feng
-          style: basic
-          icon: icon blue iconfont icon-feng
-          url: https://bbs.feng.com/
-
-        - name: Right
-          style: basic
-          icon: icon iconfont icon-router
-          url: https://www.right.com.cn/forum/
-
-        - name: 52pojie
-          style: basic
-          icon: icon red iconfont icon-52pojie
-          url: https://www.52pojie.cn/
-
-        - name: Appinn
-          style: basic
-          icon: theme red icon
-          url: https://www.appinn.com/
-
-        - name: BeikeIT
-          style: basic
-          icon: icon blue iconfont icon-beike
-          url: http://beikeit.com/
-
-        - name: MSDN
-          style: basic
-          icon: windows blue icon
-          url: https://msdn.itellyou.cn/
-
-        - name: Repaik
-          style: basic
-          icon: icon red iconfont icon-repaik
-          url: https://www.repaik.com/
-
-    - category: Tools
-      links:
-        - name: "12306"
-          style: basic
-          icon: train red icon
-          url: https://www.12306.cn/
-
-        - name: XTY
-          style: basic
-          icon: bus green icon
-          url: http://www.xintuyun.cn/
-
-        - name: Alitrip
-          style: basic
-          icon: plane yellow icon
-          url: https://www.alitrip.com/
-
-        - name: Amap
-          style: basic
-          icon: icon blue iconfont icon-amap
-          url: https://ditu.amap.com/
-
-        - name: Speedtest
-          style: basic
-          icon: icon teal iconfont icon-speedtest
-          url: https://www.speedtest.net/
-
-        - name: Baidu Disk
-          style: basic
-          icon: paw blue icon
-          url: https://pan.baidu.com/
-
-        - name: Dropbox
-          style: basic
-          icon: dropbox blue icon
-          url: https://www.dropbox.com/
-
-        - name: QQ Mail
-          style: basic
-          icon: mail blue  icon
-          url: https://mail.qq.com/
-
-        - name: Aliyun
-          style: basic
-          icon: mail orange icon
-          url: https://mail.aliyun.com/
-
-        - name: Gmail
-          style: basic
-          icon: mail red icon
-          url: https://mail.google.com/
-
-    - category: Operate
-      links:
-        - name: NameSilo
-          style: basic
-          icon: icon blue iconfont icon-namesilo
-          url: https://www.namesilo.com/
-
-        - name: DNSPod
-          style: basic
-          icon: icon blue iconfont icon-dnspod
-          url: https://www.dnspod.cn/
-
-        - name: Qiniu
-          style: basic
-          icon: icon blue iconfont icon-qiniu
-          url: https://www.qiniu.com/
-
-        - name: Aliyun
-          style: basic
-          icon: icon iconfont icon-aliyun
-          url: https://www.aliyun.com/
-
-        - name: Vultr
-          style: basic
-          icon: icon blue iconfont icon-vultr
-          url: https://www.vultr.com/
-
-        - name: DigitalOcean
-          style: basic
-          icon: icon blue iconfont icon-digitalocean
-          url: https://www.digitalocean.com/
-
-        - name: Docker
-          style: basic
-          icon: icon blue iconfont icon-docker
-          url: https://www.docker.com/
-
-        - name: Linux Mint
-          style: basic
-          icon: icon green iconfont icon-linuxmint
-          url: https://www.linuxmint.com/
-
-        - name: Arch Linux
-          style: basic
-          icon: icon blue iconfont icon-archlinux
-          url: https://www.archlinux.org/
-
-    - category: Develop
-      links:
+    - category: 论坛、社交
+      icon: icon-forum
+      links: 
         - name: V2EX
           style: basic
-          icon: icon iconfont icon-v2ex
+          icon: icon-v2ex
           url: https://www.v2ex.com/
 
         - name: Reddit
           style: basic
-          icon: reddit orange icon
+          icon: icon-reddit
           url: https://www.reddit.com/
 
-        - name: GitHub
+        - name: Chiphell
           style: basic
-          icon: github black icon
-          url: https://github.com/
+          icon: icon-chiphell
+          url: https://www.chiphell.com/
 
-        - name: Bitbucket
+        - name: 威锋网
           style: basic
-          icon: bitbucket blue icon
-          url: https:///bitbucket.org/
+          icon: icon-feng
+          url: https://bbs.feng.com/
 
+        - name: 恩山无线论坛
+          style: basic
+          icon: icon-router
+          url: https://www.right.com.cn/forum/
+
+        - name: 52破解
+          style: basic
+          icon: icon-52pojie
+          url: https://www.52pojie.cn/
+
+        - name: 小众软件
+          style: basic
+          icon: icon-appinn
+          url: https://www.appinn.com/
+
+        - name: BeikeIT
+          style: basic
+          icon: icon-beikeit
+          url: http://beikeit.com/
+
+        - name: Twitter
+          style: basic
+          icon: icon-twitter
+          url: https://twitter.com/
+
+        - name: Telegram
+          style: basic
+          icon: icon-telegram
+          url: https://telegram.org/
+
+        - name: Slack
+          style: basic
+          icon: icon-slack
+          url: https://slack.com/
+
+        - name: Trello
+          style: basic
+          icon: icon-trello
+          url: https://trello.com/
+
+    - category: 旅游、攻略
+      icon: icon-travel
+      links:
+        - name: "12306"
+          style: basic
+          icon: icon-12306
+          url: https://www.12306.cn/
+
+        - name: 飞猪旅行
+          style: basic
+          icon: icon-alitrip
+          url: https://www.alitrip.com/
+
+        - name: 去哪儿网
+          style: basic
+          icon: icon-qunar
+          url: https://www.qunar.com/
+
+        - name: 携程旅行
+          style: basic
+          icon: icon-ctrip
+          url: https://www.ctrip.com/
+
+        - name: 马蜂窝
+          style: basic
+          icon: icon-mafengwo
+          url: https://www.mafengwo.cn/
+
+        - name: 穷游网
+          style: basic
+          icon: icon-qyer
+          url: https://www.qyer.com/
+
+        - name: 爱彼迎
+          style: basic
+          icon: icon-airbnb
+          url: https://airbnb.com/      
+                   
+        - name: 高德地图
+          style: basic
+          icon: icon-amap
+          url: https://ditu.amap.com/
+
+        - name: 谷歌地图
+          style: basic
+          icon: icon-gmap
+          url: https://www.google.com/maps/
+                    
+    - category: 工具
+      icon: icon-tools
+      links:
+        - name: 程序员工具箱
+          style: basic
+          icon: icon-tool
+          url: https://tool.lu/
+
+        - name: 谷歌翻译
+          style: basic
+          icon: icon-translate
+          url: https://translate.google.cn/ 
+
+        - name: Speedtest
+          style: basic
+          icon: icon-speedtest
+          url: https://www.speedtest.net/
+
+        - name: IPIP
+          style: basic
+          icon: icon-ipip
+          url: https://www.ipip.net/
+
+        - name: MyIP
+          style: basic
+          icon: icon-myip
+          url:  https://myip.hk/
+
+        - name: SM.MS
+          style: basic
+          icon: icon-picture
+          url: https://sm.ms/    
+
+        - name: 百度网盘
+          style: basic
+          icon: icon-pan
+          url: https://pan.baidu.com/
+
+        - name: Dropbox
+          style: basic
+          icon: icon-dropbox
+          url: https://www.dropbox.com/
+                   
+        - name: MSDN
+          style: basic
+          icon: icon-windows
+          url: https://msdn.itellyou.cn/
+
+    - category: 运维
+      icon: icon-operate
+      links:
+        - name: NameSilo
+          style: basic
+          icon: icon-namesilo
+          url: https://www.namesilo.com/
+
+        - name: DNSPod
+          style: basic
+          icon: icon-dnspod
+          url: https://www.dnspod.cn/
+
+        - name: HE.DNS
+          style: basic
+          icon: icon-he
+          url: https://dns.he.net/
+          
+        - name: Aliyun
+          style: basic
+          icon: icon-aliyun
+          url: https://www.aliyun.com/
+
+        - name: Vultr
+          style: basic
+          icon: icon-vultr
+          url: https://www.vultr.com/
+
+        - name: DigitalOcean
+          style: basic
+          icon: icon-digitalocean
+          url: https://www.digitalocean.com/
+
+        - name: Docker
+          style: basic
+          icon: icon-docker
+          url: https://www.docker.com/
+
+        - name: Linux Mint
+          style: basic
+          icon: icon-linuxmint
+          url: https://www.linuxmint.com/
+
+        - name: Arch Linux
+          style: basic
+          icon: icon-archlinux
+          url: https://www.archlinux.org/
+
+    - category: 设计视觉
+      icon: icon-design
+      links:
         - name: Dribbble
           style: basic
-          icon: dribbble pink icon
+          icon: icon-dribbble
           url: https://dribbble.com/
 
         - name: Pinterest
           style: basic
-          icon: pinterest red icon
+          icon: icon-pinterest
           url: https://www.pinterest.com/
+
+        - name: Behance
+          style: basic
+          icon: icon-behance
+          url: https://www.behance.net/
 
         - name: ProductHunt
           style: basic
-          icon: product hunt orange icon
+          icon: icon-producthunt
           url: https://www.producthunt.com/
+
+        - name: Icons8
+          style: basic
+          icon: icon-icons8
+          url: https://icons8.com/      
+
+        - name: 阿里图标
+          style: basic
+          icon: icon-iconfont
+          url: https://www.iconfont.cn/
+
+        - name: 花瓣网
+          style: basic
+          icon: icon-huaban
+          url: https://huaban.com/
+
+        - name: 站酷网
+          style: basic
+          icon: icon-zcool
+          url: https://www.zcool.com.cn/
+
+        - name: UI中国
+          style: basic
+          icon: icon-ui
+          url: https://www.ui.cn/
+
+    - category: 开发
+      icon: icon-develop
+      links:
+        - name: DevDocs
+          style: basic
+          icon: icon-docs
+          url: https://devdocs.io/
 
         - name: SegmentFault
           style: basic
-          icon: icon green iconfont icon-sf
+          icon: icon-sf
           url: https://segmentfault.com/
 
-        - name: Stack Overflow
+        - name: StackOverflow
           style: basic
-          icon: stack overflow orange icon
+          icon: icon-so
           url: https://stackoverflow.com/
 
-        - name: DevDocs
+        - name: GitHub
           style: basic
-          icon: sticky note outline black icon
-          url: https://devdocs.io/
+          icon: icon-github
+          url: https://github.com/
+
+        - name: Bitbucket
+          style: basic
+          icon: icon-bitbucket
+          url: https:///bitbucket.org/
+
+        - name: CdnJS
+          style: basic
+          icon: icon-cdn
+          url: https://cdnjs.com/
+
+        - name: Cloudflare
+          style: basic
+          icon: icon-cloudflare
+          url: https://www.cloudflare.com/
+
+        - name: JetBrains
+          style: basic
+          icon: icon-jetbrains
+          url: https://www.jetbrains.com/
+
+        - name: VSCode
+          style: basic
+          icon: icon-vscode
+          url: https://code.visualstudio.com/       
+          
+          
