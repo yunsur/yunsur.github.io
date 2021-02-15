@@ -1,7 +1,7 @@
-var version = 'latest'
+var version = '6.1.0'
 var env = 'prod' // dev
 
-importScripts(`https://cdn.jsdelivr.net/npm/workbox-sw@${version}`)
+importScripts(`https://cdnjs.cloudflare.com/ajax/libs/workbox-sw/${version}/workbox-sw.js`)
 
 if (env === 'prod') {
   // 设置为线上生产模式
@@ -45,8 +45,8 @@ workbox.routing.registerRoute(
 );
 
 workbox.precaching.precacheAndRoute([
-  { url: '/index.html', revision: '20200426' },
-  { url: '/assets/css/style.css', revision: '20200426' },
+  { url: '/index.html', revision: '20210215' },
+  { url: '/assets/css/style.css', revision: '20210215' },
 ]);
 
 workbox.routing.setDefaultHandler(new workbox.strategies.NetworkFirst());

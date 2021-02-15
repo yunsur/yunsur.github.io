@@ -277,7 +277,7 @@
           style: basic
           icon: icon-airbnb
           url: https://airbnb.com/      
-                   
+
         - name: 高德地图
           style: basic
           icon: icon-amap
@@ -330,7 +330,7 @@
           style: basic
           icon: icon-dropbox
           url: https://www.dropbox.com/
-                   
+
         - name: MSDN
           style: basic
           icon: icon-windows

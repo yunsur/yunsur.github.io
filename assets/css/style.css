@@ -298,16 +298,6 @@ a {
     font-size: 12px;
 }
 
-/*.list ul li a i {
-    margin-right: 5px;
-    margin-left: 15px;
-    transition: 0.2s all linear;
-}
-
-.list ul li a i.iconfont {
-    font-size: 14px;
-}
-*/
 .list ul li:hover a {
     color: #fff;
     background-color: #29f;
@@ -315,10 +305,6 @@ a {
     box-shadow: 0 3px 3px rgba(0, 40, 70, .3);
 }
 
-/*.list ul li:hover a i {
-    color: #fff !important;
-}
-*/
 .list ul li.title {
     width: 100%;
     height: 40px;
@@ -330,24 +316,6 @@ a {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
-}
-
-/*.list ul li.title i {
-    color: #29f;
-    margin-right: 5px;
-    font-weight: normal;
-}*/
-
-.mywth {
-    position: absolute;
-    left: 20px;
-    top: 15px;
-    font-size: 12px;
-    height: 20px;
-    line-height: 20px;
-    cursor: pointer;
-    z-index: 100000;
-    height: 22px;
 }
 
 svg.icon {

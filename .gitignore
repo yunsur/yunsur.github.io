@@ -1,7 +1,11 @@
 # Jekyll
 _site/
 .sass-cache/
+.jekyll-cache
 .jekyll-metadata
+
+# Python
+.python-version
 
 # Ruby
 Gemfile.lock
