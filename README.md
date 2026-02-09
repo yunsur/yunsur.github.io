@@ -24,14 +24,11 @@ Before you start, you should have some basic understanding of the following:
 - HTML
 - CSS
 - JavaScript
-- jQuery
 - YAML format
 - UNIX/Linux Shell Script
 
 ###### Powered by
 
-- [jQuery][jquery]
-- [Hitokoto][hitokoto]
 - [Shields.io][shields]
 - [GitHub Pages][github-pages]
 
@@ -42,6 +39,4 @@ Before you start, you should have some basic understanding of the following:
 [jekyll]: https://jekyllrb.com/ "Jekyll"
 [jekyll-doc]: https://jekyllrb.com/docs/home/ "Jekyll Docs"
 [github-pages]: https://pages.github.com/ "GitHub Pages"
-[jquery]: https://jquery.com/ "jQuery"
 [shields]: https://shields.io/ "Shields.io"
-[hitokoto]: https://hitokoto.cn/api "Hitokoto"

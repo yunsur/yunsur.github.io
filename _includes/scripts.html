@@ -1,7 +1,2 @@
-{% for script in site.data.scripts %}
-    <script src="{{ script.src }}" integrity="{{ script.integrity }}" crossorigin="{{ script.crossorigin }}"></script>
-{% endfor %}
-<script src="{{ '/assets/js/search.js?v=' | relative_url }}{{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-<script src="{{ '/assets/js/he-plugin-simple.js?v=' | relative_url }}{{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+<script src="{{ '/assets/js/search.js?v=' | relative_url }}{{ site.data.version.assets_version }}" defer></script>
 <script src="https://at.alicdn.com/t/font_1778785_yyhcu1dg0oj.js" async></script>
-<script src="https://widget.heweather.net/simple/static/js/he-simple-common.js" async></script>

@@ -7,6 +7,7 @@
   <meta http-equiv="Cache-Control" content="no-siteapp" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
   <meta name="referrer" content="no-referrer" />
+  <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-touch-fullscreen" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -28,12 +29,10 @@
     <meta http-equiv="refresh" content="3; url=/">
   {% endif %}
   {% include styles.html %}
-  {% include analytics.html %}
 </head>
 
 <body>
   {% if page.search %}{% include menu.html %}{% endif %}
-  {% if page.search %}{% include weather.html %}{% endif %}
   {{ content }}
   {% include footer.html %}
   {% if page.search %}{% include scripts.html %}{% endif %}

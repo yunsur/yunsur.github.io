@@ -375,17 +375,6 @@ svg.icon {
         top: 5px;
     }
 
-    .mywth {
-        color: #777;
-        left: 10px;
-        top: 20px;
-        overflow: hidden;
-
-    }
-
-    .mywth.hidden {
-        display: none;
-    }
 }
 
 @media (max-height: 420px) {
@@ -400,7 +389,6 @@ svg.icon {
 
     .home,
     #menu,
-    .mywth,
     .footer {
         display: none;
     }
@@ -409,10 +397,6 @@ svg.icon {
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #162035;
-    }
-
-    .mywth {
-        color: #bbb;
     }
 
     .con .sou ul li {
@@ -433,8 +417,8 @@ svg.icon {
         color: #89b;
     }
     .autocomplete-suggestions {
-        border: 15px solid #293550 !important; 
-        background: #293550 !important;    
+        border: 1px solid #293550 !important;
+        background: #293550 !important;
     }
 }
 ::-webkit-scrollbar {
@@ -461,26 +445,59 @@ svg.icon {
 }
 
 .autocomplete-suggestions {
-    width: calc(100% - 70px) !important;
-    border: 15px solid #f1f1f1;
+    position: absolute;
+    z-index: 500;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
     border-radius: 10px;
-    left: 20px;
+    left: 0;
     top: 65px;
-    background: #f1f1f1;
-    line-height: 30px;
+    background: #fff;
+    padding: 6px 0;
+    line-height: 1.4;
     overflow: hidden;
+    box-shadow: 0 10px 24px rgba(32, 33, 36, 0.12);
 }
 
 .autocomplete-suggestion {
     cursor: pointer;
     color: #555;
+    padding: 7px 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.autocomplete-suggestion + .autocomplete-suggestion {
+    border-top: 1px solid #f2f2f2;
 }
 
 .autocomplete-selected {
-    color: #29f;
+    color: #177ddc;
+    background: #f4f8ff;
 }
 
 .autocomplete-suggestions strong {
     font-weight: normal;
     color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    .autocomplete-suggestion {
+        color: #d7dbe6;
+    }
+
+    .autocomplete-suggestion + .autocomplete-suggestion {
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .autocomplete-selected {
+        color: #9ec5ff;
+        background: rgba(41, 153, 255, 0.18);
+    }
+
+    .autocomplete-suggestions strong {
+        color: #f1f5ff;
+    }
 }

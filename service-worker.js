@@ -1,52 +1,71 @@
-var version = '6.1.0'
-var env = 'prod' // dev
+---
+---
 
-importScripts(`https://cdnjs.cloudflare.com/ajax/libs/workbox-sw/${version}/workbox-sw.js`)
+const VERSION = "{{ site.data.version.assets_version }}";
+const CACHE_NAME = `ys-static-${VERSION}`;
+const PRECACHE_URLS = [
+  "/",
+  "/index.html",
+  `/assets/css/style.css?v=${VERSION}`,
+  `/assets/js/search.js?v=${VERSION}`,
+  "/assets/img/favicon-32x32.png",
+  "/assets/img/favicon-16x16.png"
+];
 
-if (env === 'prod') {
-  // 设置为线上生产模式
-  workbox.setConfig({debug: false});
-} else {
-  // 设置为开发模式
-  workbox.setConfig({debug: true});
-}
+self.addEventListener("install", (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE_URLS))
+  );
+  self.skipWaiting();
+});
 
-workbox.routing.registerRoute(
-  /\.html$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'html-cache',
-  }),
-);
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(
+        keys
+          .filter((key) => key.startsWith("ys-static-") && key !== CACHE_NAME)
+          .map((key) => caches.delete(key))
+      )
+    )
+  );
+  self.clients.claim();
+});
 
-workbox.routing.registerRoute(
-  /\.(css|js)$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'asset-cache',
-  }),
-);
+self.addEventListener("fetch", (event) => {
+  const { request } = event;
 
-workbox.routing.registerRoute(
-  /\.(jpg|jpeg|svg|png|gif|ttf|mp3)$/,
-  // Use the cache if it's available.
-  new workbox.strategies.CacheFirst({
-    // Use a custom cache name.
-    cacheName: 'static-cache',
-    plugins: [
-      new workbox.expiration.ExpirationPlugin({
-        maxEntries: 100,
-        // Cache for a maximum of a week.
-        maxAgeSeconds: 7 * 24 * 60 * 60,
-      }),
-      new workbox.cacheableResponse.CacheableResponsePlugin({
-        statuses: [0, 200],
-      })
-    ]
-  })
-);
+  if (request.method !== "GET") {
+    return;
+  }
 
-workbox.precaching.precacheAndRoute([
-  { url: '/index.html', revision: '20210215' },
-  { url: '/assets/css/style.css', revision: '20210215' },
-]);
+  if (request.mode === "navigate") {
+    event.respondWith(
+      fetch(request).catch(() => caches.match("/") || caches.match("/index.html"))
+    );
+    return;
+  }
 
-workbox.routing.setDefaultHandler(new workbox.strategies.NetworkFirst());
+  const url = new URL(request.url);
+  if (url.origin !== self.location.origin) {
+    return;
+  }
+
+  event.respondWith(
+    caches.match(request).then((cached) => {
+      if (cached) {
+        return cached;
+      }
+
+      return fetch(request).then((response) => {
+        if (!response || response.status !== 200 || response.type !== "basic") {
+          return response;
+        }
+
+        const responseToCache = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(request, responseToCache));
+        return response;
+      });
+    })
+  );
+});
